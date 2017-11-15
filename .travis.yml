@@ -7,6 +7,8 @@ addons:
   apt:
     packages:
     - xvfb
+  ssh_known_hosts: 116.196.84.125
+  
 before_install:
 - openssl aes-256-cbc -K $encrypted_1ab686472695_key -iv $encrypted_1ab686472695_iv
   -in id_rsa.enc -out ~\/.ssh/id_rsa -d
