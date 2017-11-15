@@ -23,9 +23,10 @@ script:
 
 after_success:
 - npm run build
-- tar -jcvf fudi-toys.tar.bz2  /dist
+- tar -jcvf fudi-toys.tar.bz2  ./dist
 - scp fudi-toys.tar.bz2 root@116.196.84.125:~/
 - ssh root@116.196.84.125 'mkdir -p fudi-toys && tar -jxvf fudi-toys.tar.bz2 -C fudi-toys'
+
 branches:
   only:
   - master
