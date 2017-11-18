@@ -35,10 +35,10 @@ import CustomPage from '../Custom/CustomPage'
 export default {
   data() {
     return {
-      value: 1,
+      value: 0,
       settings: {
         autoplay: false,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 6000,
         dots: "inside",
         radiusDot: false,
         triger: "click",
