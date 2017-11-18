@@ -18,6 +18,7 @@
                 <year-page></year-page>
             </CarouselItem>
             <CarouselItem>
+                <house-page></house-page>
             </CarouselItem>
             <CarouselItem>
             </CarouselItem>
@@ -34,10 +35,11 @@
 import HomePage from "./HomePage"
 import CustomPage from '../Custom/CustomPage'
 import YearPage from '../Year/YearPage'
+import HousePage from '../House/HousePage'
 export default {
   data() {
     return {
-      value: 2,
+      value: 3,
       settings: {
         autoplay: false,
         autoplaySpeed: 6000,
@@ -51,7 +53,8 @@ export default {
   components: {
     "home-page": HomePage,
     'custom-page': CustomPage,
-    'year-page': YearPage
+    'year-page': YearPage,
+    'house-page': HousePage
   }
 };
 </script>
