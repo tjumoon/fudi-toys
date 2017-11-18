@@ -21,6 +21,7 @@
                 <house-page></house-page>
             </CarouselItem>
             <CarouselItem>
+                <wedding-page></wedding-page>
             </CarouselItem>
             <CarouselItem>
             </CarouselItem>
@@ -36,10 +37,11 @@ import HomePage from "./HomePage"
 import CustomPage from '../Custom/CustomPage'
 import YearPage from '../Year/YearPage'
 import HousePage from '../House/HousePage'
+import WeddingPage from '../Wedding/WeddingPage'
 export default {
   data() {
     return {
-      value: 3,
+      value: 0,
       settings: {
         autoplay: false,
         autoplaySpeed: 6000,
@@ -54,7 +56,8 @@ export default {
     "home-page": HomePage,
     'custom-page': CustomPage,
     'year-page': YearPage,
-    'house-page': HousePage
+    'house-page': HousePage,
+    'wedding-page': WeddingPage
   }
 };
 </script>
