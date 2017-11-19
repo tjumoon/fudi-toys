@@ -1,30 +1,30 @@
 <template>
-  <div class="year-container">
-      <img class="carousel-img" src="../../assets/img/c-year.jpg">
-        <div class="year-content">
-            <div class="year-header">
+  <div class="doll-container">
+      <img class="carousel-img" src="../../assets/img/c-doll.jpg">
+        <div class="doll-content">
+            <div class="doll-header">
                 <Row>
                 <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/year-logo1.png">
-                    <span class="head-value">个性理念</span>
+                    <img class="head-logo" src="../../assets/img/doll-logo1.png">
+                    <span class="head-value">每一次，都是用心之作</span>
                 </Col>
                 <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/year-logo2.png">
-                    <span class="head-value">创意新颖</span>
+                    <img class="head-logo" src="../../assets/img/doll-logo2.png">
+                    <span class="head-value">定制属于自己的婚礼</span>
                 </Col>
                 <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/year-logo3.png">
-                    <span class="head-value">强大设计团队</span>
+                    <img class="head-logo" src="../../assets/img/doll-logo3.png">
+                    <span class="head-value">定制属于自己的婚礼</span>
                 </Col>
                 </Row>
             </div>
-            <h1 class="year-title">您的新年礼品定制专家</h1>
-            <div class="year-logo-bg">
-                <img class="year-logo" src="../../assets/img/year-logo.png">
+            <h1 class="doll-title">让玩具公仔点亮生活</h1>
+            <div class="doll-logo-bg">
+                <img class="doll-logo" src="../../assets/img/doll-logo.png">
             </div>  
-            <p class="year-desc">新年吉祥物定制是富迪礼品的重头戏，多年设计产品均为爆款，众多企业新年吉祥物的年会礼品。</p> 
-            <div class="year-bottom">
-                <Button class="year-button" @click="toRouter(`/year`)">年会礼品</Button>
+            <p class="doll-desc">赋予公仔的定义，见证爱情、亲情、友情，让公仔走进生活，给您更加人性化的选择，携手并进。</p> 
+            <div class="doll-bottom">
+                <Button class="doll-button" @click="toRouter(`/doll`)">公仔专区</Button>
             </div>
         </div>
   </div>
@@ -46,7 +46,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.year-container {
+.doll-container {
     width: 100%;
     height: 100%;
     position: relative;
@@ -56,11 +56,11 @@ export default {
         max-width: 100%;
         max-height: 100%;
     }
-    .year-content {
+    .doll-content {
         position: absolute;
         position: absolute;
-        width: 60%;
-        left: 20%;
+        width: 64%;
+        left: 18%;
         top: 0;
         .head-info {
             padding: 0.5rem 0.25rem;
@@ -78,13 +78,13 @@ export default {
                 font-size: 0.2rem;
             }
         }
-        .year-title {
+        .doll-title {
             color: #fff;
             font-family: "STXingkai";
             font-size: 0.8rem;
             text-align: center;
         }
-        .year-logo-bg {
+        .doll-logo-bg {
             width: 1.8rem;
             height: 1.8rem;
             background: rgba(255, 255, 255, 0.5);
@@ -92,14 +92,14 @@ export default {
             margin: 0 auto;
             margin-top: 0.25rem;
             margin-bottom: 0.25rem;
-            .year-logo {
+            .doll-logo {
                 width: 1.5rem;
                 height: 1.5rem;
                 margin: 0.15rem 0.15rem;
             }
         }
-        .year-desc {
-            width: 7.4rem;
+        .doll-desc {
+            width: 7.5rem;
             text-align: center;
             margin: 0 auto;
             color: #fff;
@@ -108,11 +108,11 @@ export default {
             font-weight: bold;
             padding: 0.25rem 0.25rem;
         }
-        .year-bottom {
+        .doll-bottom {
             width: 2.8rem;
             height: 1rem;
             margin: 0 auto;
-            .year-button {
+            .doll-button {
             width: 100%;
             height: 100%;
             font-family: "STKaiti";

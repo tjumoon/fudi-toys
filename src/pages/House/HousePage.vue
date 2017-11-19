@@ -66,8 +66,8 @@ export default {
             padding: 0.5rem 0.25rem;
             float: left;
             .head-logo {
-                width: 0.8rem;
-                height: 0.8rem;
+                width: 0.6rem;
+                height: 0.6rem;
                 vertical-align: middle;
             }
             .head-value {
