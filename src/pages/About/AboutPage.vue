@@ -1,30 +1,26 @@
 <template>
-  <div class="doll-container">
-      <img class="carousel-img" src="../../assets/img/c-doll.jpg">
-        <div class="doll-content">
-            <div class="doll-header">
+  <div class="about-container">
+      <img class="carousel-img" src="../../assets/img/c-about.jpg">
+        <div class="about-content">
+            <div class="about-header">
                 <Row>
-                <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/doll-logo1.png">
-                    <span class="head-value">品种全</span>
+                <Col span="12" class="head-info">
+                    <img class="head-logo" src="../../assets/img/about-logo1.png">
+                    <span class="head-value">速度快捷</span>
                 </Col>
-                <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/doll-logo2.png">
-                    <span class="head-value">品质高</span>
-                </Col>
-                <Col span="8" class="head-info">
-                    <img class="head-logo" src="../../assets/img/doll-logo3.png">
-                    <span class="head-value">服务好</span>
+                <Col span="12" class="head-info">
+                    <img class="head-logo" src="../../assets/img/about-logo2.png">
+                    <span class="head-value">流程简单</span>
                 </Col>
                 </Row>
             </div>
-            <h1 class="doll-title">让玩具公仔点亮生活</h1>
-            <div class="doll-logo-bg">
-                <img class="doll-logo" src="../../assets/img/doll-logo.png">
+            <h1 class="about-title">您身边的定制专家</h1>
+            <div class="about-logo-bg">
+                <img class="about-logo" src="../../assets/img/about-logo.png">
             </div>  
-            <p class="doll-desc">赋予公仔的定义，见证爱情、亲情、友情，让公仔走进生活，给您更加人性化的选择，携手并进。</p> 
-            <div class="doll-bottom">
-                <Button class="doll-button" @click="toRouter(`/doll`)">公仔专区</Button>
+            <p class="about-desc">定制企业LOGO，公司吉祥物，婚庆、情人节礼物。根据图片定做您想要的毛绒玩具，批量生产，合理的价格，质量有保障，是您信赖的毛绒玩具定制服务商。</p> 
+            <div class="about-bottom">
+                <Button class="about-button" @click="toRouter(`/about`)">联系我们</Button>
             </div>
         </div>
   </div>
@@ -46,7 +42,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.doll-container {
+.about-container {
     width: 100%;
     height: 100%;
     position: relative;
@@ -56,11 +52,11 @@ export default {
         max-width: 100%;
         max-height: 100%;
     }
-    .doll-content {
+    .about-content {
         position: absolute;
         position: absolute;
-        width: 64%;
-        left: 18%;
+        width: 60%;
+        left: 20%;
         top: 0;
         .head-info {
             padding: 0.5rem 0.25rem;
@@ -78,13 +74,13 @@ export default {
                 font-size: 0.2rem;
             }
         }
-        .doll-title {
+        .about-title {
             color: #fff;
             font-family: "STXingkai";
             font-size: 0.8rem;
             text-align: center;
         }
-        .doll-logo-bg {
+        .about-logo-bg {
             width: 1.8rem;
             height: 1.8rem;
             background: rgba(255, 255, 255, 0.5);
@@ -92,14 +88,14 @@ export default {
             margin: 0 auto;
             margin-top: 0.25rem;
             margin-bottom: 0.25rem;
-            .doll-logo {
+            .about-logo {
                 width: 1.5rem;
                 height: 1.5rem;
                 margin: 0.15rem 0.15rem;
             }
         }
-        .doll-desc {
-            width: 7.5rem;
+        .about-desc {
+            width: 8rem;
             text-align: center;
             margin: 0 auto;
             color: #fff;
@@ -108,11 +104,11 @@ export default {
             font-weight: bold;
             padding: 0.25rem 0.25rem;
         }
-        .doll-bottom {
+        .about-bottom {
             width: 2.8rem;
             height: 1rem;
             margin: 0 auto;
-            .doll-button {
+            .about-button {
             width: 100%;
             height: 100%;
             font-family: "STKaiti";
