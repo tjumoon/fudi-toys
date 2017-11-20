@@ -87,6 +87,7 @@ export default {
         margin: 0.25rem 0;
       }
       .desc-content {
+        text-indent: 2em;
         width: 100%;
         padding: 0 3rem;
         font-size: 0.25rem;
