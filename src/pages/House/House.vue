@@ -14,7 +14,7 @@
             品味”的生活时尚带入人群，让他们更热爱生活、注重
             生活品质。
         </p>
-        <img class="house-desc-img" src="../../assets/img/doll-detail-custom.jpg">
+        <img class="house-desc-img" src="../../assets/img/house-detail-custom.jpg">
       </div>
       <div class="house-footer">
         <Row>
