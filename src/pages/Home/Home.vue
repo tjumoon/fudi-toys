@@ -49,7 +49,7 @@ export default {
     return {
       value: 0,
       settings: {
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 6000,
         dots: "inside",
         radiusDot: false,
