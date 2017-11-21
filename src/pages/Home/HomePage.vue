@@ -3,7 +3,7 @@
       <img class="carousel-img" src="../../assets/img/c-main.jpg">
         <div class="home-content">
             <p class="home-text">致力于打造高端的一站式毛绒玩具礼品定制服务企业</p>
-            <Button class="home-button" @click="toRouter(`/`)">点击了解</Button>
+            <Button class="home-button" @click="toRouter(`/homedetail`)">点击了解</Button>
         </div>
   </div>
 </template>

@@ -8,6 +8,7 @@ import Wedding from '@/pages/Wedding/Wedding'
 import Doll from '@/pages/Doll/Doll'
 import Comic from '@/pages/Comic/Comic'
 import About from '@/pages/About/About'
+import HomeDetail from '@/pages/Home/HomeDetail'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/homedetail',
+      name: 'HomeDetail',
+      component: HomeDetail
     },
     {
       path: '/custom',
