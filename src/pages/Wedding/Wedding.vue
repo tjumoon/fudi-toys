@@ -1,30 +1,29 @@
 <template>
   <div class="wedding-container">
-    <img class="container-bg" src="../../assets/img/year-detail-content.jpg">
+    <img class="container-bg" src="../../assets/img/wedding-detail-content.jpg">
 
     <div class="wedding-content">
       <img class="fudi-logo" src="../../assets/img/logo.png">
-      <h1 class="wedding-title">家居专区——让家居改变您的生活</h1>
+      <h1 class="wedding-title">婚庆专区——镌刻着我们的永恒</h1>
       <div class="wedding-desc-container">
         <p class="wedding-desc">
-            家居专区是富迪工艺企业文化的全面体现，品质决定
-            生活的高度，我们致力于为您提供简约、实用、健康的
-            家居用品，通过不同的家居用品来传递简单、自然、快
-            乐的生活方式。富迪家居定位是将崇尚 “简约﹑健康﹑
-            品味”的生活时尚带入人群，让他们更热爱生活、注重
-            生活品质。
+            富迪工艺致力于毛绒玩具婚庆礼品定制多年，
+            婚庆类产品品种齐全，支持来图定制，定制属于
+            您婚礼的专属礼品。优良的品质，精美的做工，
+            喜庆的礼品，是我们对您的承诺，希望您温暖而
+            幸福的每一个瞬间，我们都陪您走过。
         </p>
-        <img class="wedding-desc-img" src="../../assets/img/year-detail-custom.png">
+        <img class="wedding-desc-img" src="../../assets/img/wedding-detail-custom.jpg">
       </div>
       <div class="wedding-footer">
         <Row>
           <Col span="12">
             <img class="wedding-img" src="../../assets/img/wedding-logo1.png">
-            <div class="wedding-value">品种齐全</div>
+            <div class="wedding-value">每一次，都是用心之作</div>
           </Col>
           <Col span="12">
             <img class="wedding-img" src="../../assets/img/wedding-logo2.png">
-            <div class="wedding-value">质量保障</div>
+            <div class="wedding-value">定制属于自己的婚礼</div>
           </Col>
         </Row>
       </div>
@@ -53,7 +52,7 @@ export default {
       position: absolute;
       width: 60%;
       left: 20%;
-      top: 0.8rem;
+      top: 0.2rem;
       .fudi-logo {
         width: 1.875rem;
         height: 0.625rem;
@@ -84,7 +83,7 @@ export default {
       }
       .wedding-footer {
         text-align: center;
-        margin-top: 15rem;
+        margin-top: 17rem;
         .wedding-img {
           width: 0.88rem;
           height: 0.88rem;
