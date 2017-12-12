@@ -1,6 +1,6 @@
 <template>
   <div class="comic-container">
-      <img class="carousel-img" src="../../assets/img/c-comic.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-comic.jpg">
         <div class="comic-content">
             <div class="comic-header">
                 <Row>

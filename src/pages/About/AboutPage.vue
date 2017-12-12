@@ -1,6 +1,6 @@
 <template>
   <div class="about-container">
-      <img class="carousel-img" src="../../assets/img/c-about.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-about.jpg">
         <div class="about-content">
             <div class="about-header">
                 <Row>

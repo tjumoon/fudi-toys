@@ -1,6 +1,6 @@
 <template>
   <div class="doll-container">
-      <img class="carousel-img" src="../../assets/img/c-doll.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-doll.jpg">
         <div class="doll-content">
             <div class="doll-header">
                 <Row>

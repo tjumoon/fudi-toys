@@ -1,6 +1,6 @@
 <template>
   <div class="house-container">
-      <img class="carousel-img" src="../../assets/img/c-house.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-house.jpg">
         <div class="house-content">
             <div class="house-header">
                 <Row>

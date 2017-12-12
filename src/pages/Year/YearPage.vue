@@ -1,6 +1,6 @@
 <template>
   <div class="year-container">
-      <img class="carousel-img" src="../../assets/img/c-year.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-year.jpg">
         <div class="year-content">
             <div class="year-header">
                 <Row>

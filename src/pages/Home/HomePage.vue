@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-      <img class="carousel-img" src="../../assets/img/c-main.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-main.jpg">
         <div class="home-content">
             <p class="home-text">致力于打造高端的一站式毛绒玩具礼品定制服务企业</p>
             <Button class="home-button" @click="toRouter(`/custom`)">点击了解</Button>

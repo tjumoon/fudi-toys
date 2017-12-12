@@ -1,6 +1,6 @@
 <template>
     <div class="custom-container">
-        <img class="carousel-img" src="../../assets/img/c-custom.jpg">
+        <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-custom.jpg">
         <div class="custom-content">
             <Row class="custom-company">
                 <Col span="12" class="company-info">

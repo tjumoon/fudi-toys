@@ -1,6 +1,6 @@
 <template>
   <div class="wedding-container">
-      <img class="carousel-img" src="../../assets/img/c-wedding.jpg">
+      <img class="carousel-img" src="http://ozpiibtse.bkt.clouddn.com/c-wedding.jpg">
         <div class="wedding-content">
             <div class="wedding-header">
                 <Row>
