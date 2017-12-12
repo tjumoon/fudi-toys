@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <img class="container-bg" src="../../assets/img/home-detail-content.jpg">
+    <img class="container-bg" src="http://ozpiibtse.bkt.clouddn.com/home-detail-content.jpg">
 
     <div class="home-content">
       <img class="fudi-logo" src="../../assets/img/logo.png">

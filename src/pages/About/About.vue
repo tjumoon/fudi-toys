@@ -1,7 +1,7 @@
 <template>
   <div class="about-container">
     <div class="about-head">
-      <img class="head-bg" src="../../assets/img/about-detail-head.jpg">
+      <img class="head-bg" src="http://ozpiibtse.bkt.clouddn.com/about-detail-head.jpg">
       <h1 class="head-title">富迪工艺礼品</h1>
       <h3 class="head-desc">让定制独特而唯一</h3>
     </div>
@@ -38,7 +38,7 @@
         <img class="coperation-logo" src="../../assets/img/about-cooperation.png">
         <span class="coperation-value">合作单位</span>
       </div>
-      <img class="cooperation-logos" src="../../assets/img/about-cooperation-logos.png">
+      <img class="cooperation-logos" src="http://ozpiibtse.bkt.clouddn.com/about-cooperation-logos.png">
     </div>
   </div>
 </template>

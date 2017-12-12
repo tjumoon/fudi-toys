@@ -1,6 +1,6 @@
 <template>
   <div class="year-container">
-    <img class="container-bg" src="../../assets/img/year-detail-content.jpg">
+    <img class="container-bg" src="http://ozpiibtse.bkt.clouddn.com/year-detail-content.jpg">
 
     <div class="year-content">
       <img class="fudi-logo" src="../../assets/img/logo.png">

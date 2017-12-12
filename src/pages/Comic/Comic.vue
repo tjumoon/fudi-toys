@@ -1,6 +1,6 @@
 <template>
   <div class="commic-container">
-    <img class="container-bg" src="../../assets/img/commic-detail-content.jpg">
+    <img class="container-bg" src="http://ozpiibtse.bkt.clouddn.com/commic-detail-content.jpg">
 
     <div class="commic-content">
       <img class="fudi-logo" src="../../assets/img/logo.png">

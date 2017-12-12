@@ -1,6 +1,6 @@
 <template>
   <div class="doll-container">
-    <img class="container-bg" src="../../assets/img/doll-detail-bg.jpg">
+    <img class="container-bg" src="http://ozpiibtse.bkt.clouddn.com/doll-detail-bg.jpg">
     <div class="doll-content">
       <img class="fudi-logo" src="../../assets/img/logo.png">
       <h1 class="doll-title">公仔专区——让玩具公仔点亮生活</h1>
@@ -17,7 +17,7 @@
         </p>
         <img class="doll-desc-img" src="../../assets/img/doll-detail-custom.jpg">
       </div>
-      <img class="doll-img-content" src="../../assets/img/doll-detail-content.png">
+      <img class="doll-img-content" src="http://ozpiibtse.bkt.clouddn.com/doll-detail-content.png">
       <div class="doll-footer">
         <Row>
           <Col span="8">
