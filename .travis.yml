@@ -7,13 +7,13 @@ addons:
   apt:
     packages:
     - xvfb
-  ssh_known_hosts: 116.196.84.125
+  ssh_known_hosts: ${REMOTE}
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_1ab686472695_key -iv $encrypted_1ab686472695_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-- echo -e "Host 116.196.84.125\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo -e "Host ${REMOTE}\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 install:
 - npm install
@@ -24,8 +24,8 @@ script:
 after_success:
 - npm run build
 - tar -jcvf fudi-toys.tar.bz2  ./dist
-- scp fudi-toys.tar.bz2 root@116.196.84.125:~/
-- ssh root@116.196.84.125 'mkdir -p fudi-toys && tar -jxvf fudi-toys.tar.bz2 -C fudi-toys && cd fudi-toys && cp -r dist/ /var/www/'
+- scp fudi-toys.tar.bz2 root@${REMOTE}:~/
+- ssh root@${REMOTE} 'mkdir -p fudi-toys && tar -jxvf fudi-toys.tar.bz2 -C fudi-toys && cd fudi-toys && cp -r dist/ /var/www/'
 
 branches:
   only:
